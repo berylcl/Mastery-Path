@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main()
 {
-  int height;
-  int width;
+  double height,width;
   printf("Enter rectangle height:");
-  scanf("%d",&height);
+  scanf("%lf",&height);
   printf("Enter width:");
-  scanf("%d",&width);
-  printf("The area is %d",height * width);
+  scanf("%lf",&width);
+  printf("The area is %lf",height * width);
   return 0;
 }
